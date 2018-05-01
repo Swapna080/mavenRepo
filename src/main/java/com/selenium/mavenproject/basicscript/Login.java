@@ -23,7 +23,7 @@ public class Login {
 		d.findElement(By.xpath(".//*[@id='form']/div/div[2]/input")).sendKeys("admin");
 		d.findElement(By.xpath(".//*[@id='form']/div/div[4]/input")).sendKeys("password");
 		d.findElement(By.xpath(".//*[@id='submitButton']")).click();
-		//task-1 statement
+		//task-1 statement 1
 	}
 
 }
