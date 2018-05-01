@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 public class VerifyLeadsInformation {
 	WebDriver d;
 	@Test
+	// new java
 	public void testverifyleadsinformation(){
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 		d=new ChromeDriver();

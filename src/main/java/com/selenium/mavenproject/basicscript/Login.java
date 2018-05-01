@@ -12,7 +12,7 @@ public class Login {
 	WebDriver d;
 	@Test
 	public void testlogin(){
-		//System.out.println(System.getProperty("user.dir"));
+		//System.out.println(System.getProperty(""));
 
 		//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
@@ -23,7 +23,7 @@ public class Login {
 		d.findElement(By.xpath(".//*[@id='form']/div/div[2]/input")).sendKeys("admin");
 		d.findElement(By.xpath(".//*[@id='form']/div/div[4]/input")).sendKeys("password");
 		d.findElement(By.xpath(".//*[@id='submitButton']")).click();
-		
+		//task-1 statement 1
 	}
 
 }
